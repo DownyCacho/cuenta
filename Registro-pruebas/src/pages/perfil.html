@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usuario Perfil</title>
+    <link rel="stylesheet" href="../styles/perfil.css">
+</head>
+<body>
+    <div class="perfil-container">
+        <img src="../img/NoUsuario.png" alt="Foto de perfil" class="foto-perfil" id="imgPerfil">
+       <div class="subir-foto">
+    <label for="inputFoto" class="custom-file-label">Elegir foto de perfil</label>
+    <input type="file" id="inputFoto" accept="image/*" onchange="mostrarFoto(event)">
+    <div id="mensajeFoto" class="mensaje-foto">Aún no tiene foto de perfil</div>
+</div>
+        <div class="perfil-info">
+            <hr class="separar">
+            <label class="DatosUser">Nombre de usuario:</label>
+            <p class="DescriptionUs">No hay nombre de Usuario</p>
+            <hr class="separar">
+            <label class="DatosUser">Edad:</label>
+            <p class="DescriptionUs">No se ah ingresado la edad</p>
+            <hr class="separar">
+            <label class="DatosUser">Correo electrónico:</label>
+            <p class="DescriptionUs">No hay correo electrónico</p>
+            <hr class="separar">
+            <label class="DatosUser">Número de teléfono:</label>
+            <p class="DescriptionUs">No se ah ingresado el No.telefono</p>
+        </div>
+    </div>
+
+    <script src="../scripts/scripts-perfil.js"></script>
+</body>
+</html>
