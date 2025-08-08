@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background: #03346E;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .perfil-container {
+            background: #315d94;
+            max-width: 400px;
+            margin: 40px auto;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-align: center;
+            user-select: none;
+        }
+        .foto-perfil {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0078d7;
+            margin-bottom: 7vh;
+            user-select: none;
+        }
+        .perfil-info {
+            text-align: left;
+            margin-top: 10px;
+            user-select: none;
+        }
+        .subir-foto {
+            margin-bottom: 20px;
+            user-select: none;
+        }
+.DatosUser{
+    font-weight: bold;
+    color: black;
+    user-select: none;
+}
+.DescriptionUs{
+    margin: 5px 0 15px 0;
+    color: white;
+    user-select: none;
+}
+.separar{
+border: 1px solid gray;
+}
+#inputFoto {
+    display: none; /* Oculta el input real */
+}
+
+.custom-file-label {
+    display: inline-block;
+    padding: 8px 18px;
+    background: #0078d7;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: background 0.2s;
+    user-select: none;
+}
+.custom-file-label:hover {
+    background: #005fa3;
+    cursor: pointer;
+}
+.mensaje-foto {
+    color: #f3f3f3;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    user-select: none;
+}
